@@ -24,10 +24,12 @@ const SOCIAL_ICONS: Record<string, any> = {
   <div class="container">
     <div class="info">
       <h1>{name}</h1>
-      <h2>{label}</h2>
+      <h3>{label}</h3>
       <span>
-        <!-- robar icono -->
-        {city} {region}
+        <World/>
+        <p>{city}</p>
+        <p>{region}</p>
+         
       </span>
       <footer>
         {
@@ -64,6 +66,15 @@ const SOCIAL_ICONS: Record<string, any> = {
 <style>
   main {
     padding: 4rem;
+  }
+
+  span {
+    display: flex;
+    align-items: center;
+  }
+
+  span p {
+    margin-left: 20px;
   }
 
   .info {
