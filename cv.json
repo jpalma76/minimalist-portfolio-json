@@ -1,11 +1,11 @@
 {
   "basics": {
-    "name": "Miguel Ángel Durán",
+    "name": "Juan Palma Álvarez",
     "label": "Full Stack Developer con más de 15 años de experiencia & Creador de Contenido de Programación",
-    "image": "https://yt3.googleusercontent.com/ytc/AIdro_kmNbgi2jFNHNVr73no6HGX_8m3Pad8ZspkZm_nmw=s176-c-k-c0x00ffffff-no-rj",
-    "email": "miduga@gmail.com",
+    "image": "https://portafolio-juan-palma.netlify.app/images/foto-mia.jpeg",
+    "email": "juan.palma.alvarez@gmail.com",
     "phone": "+34 688888888",
-    "url": "https://midu.dev",
+    "url": "https://portafolio-juan-palma.netlify.app/",
     "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta *liderar equipos en* empresas multinacionales.",
     "location": {
       "address": "",
@@ -17,18 +17,18 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
+        "username": "jpalma76",
+        "url": "https://www.linkedin.com/in/juan-palma-alvarez/"
       },
       {
         "network": "X",
-        "username": "midudev",
-        "url": "https://x.com/midudev"
+        "username": "jpalma76",
+        "url": "https://twitter.com/JPALMA76"
       },
       {
         "network": "GitHub",
         "username": "midudev",
-        "url": "https://github.com/midudev"
+        "url": "https://github.com/jpalma76"
       }
     ]
   },
