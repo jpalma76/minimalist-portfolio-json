@@ -1,18 +1,19 @@
 {
   "basics": {
     "name": "Juan Palma Álvarez",
-    "label": "Full Stack Developer con más de 15 años de experiencia & Creador de Contenido de Programación",
+    "profesion": "Frontend Developer",
+    "label": "Frontrend Developer con 2 años de experiencia de forma autónoma",
     "image": "https://portafolio-juan-palma.netlify.app/images/foto-mia.jpeg",
     "email": "juan.palma.alvarez@gmail.com",
-    "phone": "+34 688888888",
+    "phone": "+56 9 92699978",
     "url": "https://portafolio-juan-palma.netlify.app/",
-    "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta *liderar equipos en* empresas multinacionales.",
+    "summary": "+2 años de experiencia como Desarrollador Web, sin experiencia profesional, solo lo hecho en proyectos personales, copiados de Youtube y los realizados en los distintos cursos que he realizado. soy un apasionado por la programación y la informática en General, Actualmente me encuentro en proceso de encontrar mi primer trabajo como desarrollador Frontend. Vivo en Santiago, Chile. Poseo una buena base de pensamiento lógico, me adapto fácilmente al trabajo en equipo, trabajo bajo presión",
     "location": {
       "address": "",
-      "postalCode": "08820",
-      "city": "el Prat de Llobregat",
-      "countryCode": "ES",
-      "region": "España"
+      "postalCode": "9750000",
+      "city": "Peñaflor, Región Metropolitana",
+      "countryCode": "CL",
+      "region": "Chile"
     },
     "profiles": [
       {
@@ -27,7 +28,7 @@
       },
       {
         "network": "GitHub",
-        "username": "midudev",
+        "username": "jpalma76",
         "url": "https://github.com/jpalma76"
       }
     ]

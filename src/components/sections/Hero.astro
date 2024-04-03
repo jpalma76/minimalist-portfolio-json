@@ -10,13 +10,16 @@ import GitHub from '@/icons/GitHub.astro'
 import LinkedIn from '@/icons/LinkedIn.astro'
 
 const { name, label, image, location, profiles, phone, email } = basics
-const { city, region } = location
+const { city, region, countryCode } = location
 
 const SOCIAL_ICONS: Record<string, any> = {
   GitHub,
   LinkedIn,
   X
 }
+
+const linkedinInfo = profiles.find(({ network }) => network  === "LinkedIn")
+const linkedUrl = linkedinInfo?.url
 
 ---
 
@@ -29,47 +32,56 @@ const SOCIAL_ICONS: Record<string, any> = {
         <WorldMap/>
         <p>{city}</p>
         <p>{region}</p>
-         
+        <p>({countryCode})</p>
       </span>
       <footer>
-        {
-          email && (
-            <a 
-              href={`mailto:${email}`}
-              title={`Enviar un correo electrónico a ${name}`}
-              target="_blank"
-            >
-              <Email />
-            </a>
-          )
-        }
-        {
-          phone && (
-            <a 
-              href={`tel:${phone}`}
-              title={`LLamar por teléfono a ${name} al número ${phone}`}
-              target="_blank"
-            >
-              <Phone />
-            </a>
-          )
-        }
-        {
-          profiles.map(({ network, url, username }) => {
-            const Icon = SOCIAL_ICONS[network]
+        <div class="print">
+            <p>Email: {email}</p>
+            <p>Phone: {phone}</p>
+            <p>LinkedIn: {linkedUrl}</p>
+        </div>
 
-            return (
-              <a
-                href={url}
-                title={`Vistar el perfil de ${name} en ${network}`}
+        <div class="no-print">
+          {
+            email && (
+              <a 
+                href={`mailto:${email}`}
+                title={`Enviar un correo electrónico a ${name}`}
                 target="_blank"
-                rel="noopener noreferrer"
               >
-                <Icon />
+                <Email />
               </a>
-            );
-          })
-        }
+            )
+          }
+          {
+            phone && (
+              <a 
+                href={`tel:${phone}`}
+                title={`LLamar por teléfono a ${name} al número ${phone}`}
+                target="_blank"
+              >
+                <Phone />
+              </a>
+            )
+          }
+          {
+            profiles.map(({ network, url, username }) => {
+              const Icon = SOCIAL_ICONS[network]
+
+              return (
+                <a
+                  href={url}
+                  title={`Vistar el perfil de ${name} en ${network}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Icon />
+                </a>
+              );
+            })
+          }
+
+        </div>
       </footer>
     </div>
     
@@ -80,14 +92,28 @@ const SOCIAL_ICONS: Record<string, any> = {
 </Section>
 
 <style>
+  .print {
+    display: none;
+  }
+  .no-print {
+    display: block;
+  }
+  @media print {
+    .print {
+      display: block;
+    }
+    .no-print {
+    display: none;
+  }
+  }
+
   .container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
-}
-
+  }
   h1 {
     font-size: 2rem;
   }
@@ -109,19 +135,13 @@ const SOCIAL_ICONS: Record<string, any> = {
     letter-spacing: -0.05rem;
     height: auto;
   }
-
   footer {
     display: flex;
     gap: 4px;
     margin-top: 8px;
   }
-
   span p {
     margin-left: 20px;
-  }
-
-  .info {
-    
   }
   img {
     aspect-ratio: 1 / 1;
