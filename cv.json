@@ -35,119 +35,61 @@
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Divulgador sobre Programación Web",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
-      "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
-      "highlights": [
-        "Started the company"
-      ]
+      "name": "Mas Venta SPA",
+      "position": "Técnico Instalador de Servicios de Internet, Cable y Telefonía para VTR",
+      "url": "",
+      "startDate": "2022-03-01",
+      "endDate": "2022-06-31",
+      "summary": "Presté servicios como Técnico Instalando y mantenciones de Servicios de Internet, cable y telefonía en HFC y FTTH entregando un servicio de calidad en ,distintas comunas de la Región Metropolitana"
     },
     {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
-      "highlights": [
-        "Started the company"
-      ]
+      "name": "Salfa Servicios SPA",
+      "position": "Técnico Instalador de Servicios de Internet, Cable y Telefonía para VTR y Movistar",
+      "url": "",
+      "startDate": "2020-10-01",
+      "endDate": "2021-07-31",
+      "summary": "Presté servicios como Técnico Instalando y mantenciones de Servicios de Internet, cable y telefonía en HFC y FTTH entregando un servicio de calidad en ,distintas comunas de la Región Metropolitana."
     },
     {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
+      "name": "Sodimac",
+      "position": "Vendedor Integral",
+      "startDate": "2017-04-01",
       "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
-      "highlights": [
-        "Started the company"
-      ]
+      "summary": "Trabajé como vendedor del área de pinturas desempeñándome como vendedor integral, vendiendo proyectos no solo los productor de mi área, destacando como empleado aplicando mis conocimientos para poder dar un servicio de calidad."
     }
   ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Ingeniero de Software",
-    "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
   "skills": [
     {
       "name": "HTML",
-      "level": "Master",
+      "level": "Intermedio",
       "keywords": [
         "Desarrollo Web", "Frontend"
       ]
     },
     {
       "name": "CSS",
-      "level": "Master",
+      "level": "Interedio",
       "keywords": [
         "Desarrollo Web", "Frontend", "Diseño Responsive"
       ]
     },
     {
       "name": "JavaScript",
-      "level": "Master",
+      "level": "Intermedio",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+        "Desarrollo Web", "Frontend"
       ]
     },
     {
       "name": "Tailwind",
-      "level": "Avanzado",
+      "level": "Intermedio",
       "keywords": [
         "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
       ]
     },
     {
-      "name": "TypeScript",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Node",
-      "level": "Avanzado",
+      "name": "NodeJS",
+      "level": "Básico",
       "keywords": [
         "Desarrollo Web", "Backend", "JavaScript", "Servidor"
       ]
