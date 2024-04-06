@@ -7,7 +7,7 @@ import { projects } from "@cv";
 <Section title="Proyectos">
     <ul>
       {
-        projects.map(({ url, description, highlights, name, isActive }) => {
+        projects.map(({ url, description, highlights, name }) => {
           return (
             <li>
               <article>
@@ -16,9 +16,6 @@ import { projects } from "@cv";
                     <a href={url} title={`Ver el proyecto ${name}`} target="_blank" >
                       {name}
                     </a>
-                    {
-                      isActive && <span>&bull;</span>
-                    }
                   </h3>
                   <p>{description}</p>
                 </header>

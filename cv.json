@@ -157,15 +157,35 @@
   }],
   "projects": [
     {
-      "name": "Portafolio Web",
-      "description": "Creado rginalmente con html y css, posteriormente se utliza JavaScript renderizando los cursos utilizando distintas técnicas de renderizado dinámicos como fetch, jquery y foreach desde un array.",
+      "name": "Portfolio Web",
+      "description": "Desarrollado con html y css, posteriormente se agrega JavaScript al proyecto renderizando los cursos realizados.",
       "highlights": [
         "HTML",
         "CSS",
         "JavaScript",
-        "JQuery"
+        "JQuery",
+        "Bootstrap"
       ],
       "url": "https://portafolio-juan-palma.netlify.app/"
+    },
+    {
+      "name": "Portfolio Dev",
+      "description": "Portfolio desarrollado con Astro, Tailwind y Flowbite, proyecto copiado de Youtube de @Midudev.",
+      "highlights": [
+        "ASTRO",
+        "TAILWIND",
+        "FLOWBITE"
+      ],
+      "url": "https://copia-de-portfolio-dev.netlify.app/"
+    },
+    {
+      "name": "Copia de la prelanding de la VeladaIV",
+      "description": "Desarrollo de copia de la prelanding de la Velada IV desarroolado con Astro y Tailwind",
+      "highlights": [
+        "ASTRO",
+        "TAILWIND CSS"
+      ],
+      "url": "https://copia-de-pre-landing-de-la-velada-iv.netlify.app/"
     }
   ]
 }
