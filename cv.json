@@ -74,10 +74,17 @@
       ]
     },
     {
+      "name": "NodeJS",
+      "level": "Básico",
+      "keywords": [
+        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+      ]
+    },
+    {
       "name": "JavaScript",
       "level": "Intermedio",
       "keywords": [
-        "Desarrollo Web", "Frontend"
+        "Desarrollo Web", "Frontend", "backend"
       ]
     },
     {
@@ -85,13 +92,6 @@
       "level": "Intermedio",
       "keywords": [
         "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
-      ]
-    },
-    {
-      "name": "NodeJS",
-      "level": "Básico",
-      "keywords": [
-        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
       ]
     },
     {
@@ -103,28 +103,28 @@
     },
     {
       "name": "Git",
-      "level": "Avanzado",
+      "level": "intermedio",
       "keywords": [
         "Control de Versiones", "Colaboración", "Código Fuente"
       ]
     },
     {
       "name": "GitHub",
-      "level": "Avanzado",
+      "level": "Intermedio",
       "keywords": [
         "Control de Versiones", "Colaboración", "Código Fuente", "Git"
       ]
     },
     {
-      "name": "Next.js",
-      "level": "Avanzado",
+      "name": "Astro",
+      "level": "Básico",
       "keywords": [
         "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
       ]
     },
     {
-      "name": "React",
-      "level": "Avanzado",
+      "name": "ReactJS",
+      "level": "Intermedio",
       "keywords": [
         "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
       ]
@@ -134,85 +134,38 @@
     {
       "language": "Spanish",
       "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Advanced"
     }
   ],
   "interests": [{
-    "name": "Wildlife",
+    "name": "Informática",
     "keywords": [
-      "Ferrets",
-      "Unicorns"
+      "Software",
+      "Hardware"
     ]
-  }],
+  },
+  {
+    "name": "Aprender nuevas tecnologías",
+    "keywords": [
+      "Programación",
+      "Desarrollo Web"
+    ]
+  }
+  ],
   "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
+    "name": "",
+    "reference": ""
   }],
   "projects": [
     {
-      "name": "mars.codes",
-      "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "name": "Portafolio Web",
+      "description": "Creado rginalmente con html y css, posteriormente se utliza JavaScript renderizando los cursos utilizando distintas técnicas de renderizado dinámicos como fetch, jquery y foreach desde un array.",
       "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "JQuery"
       ],
-      "url": "https://mars.codes"
-    },
-    {
-      "name": "AdventJS",
-      "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
-      "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
-      ],
-      "url": "https://adventjs.dev"
-    },
-    {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
-      "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
-      ],
-      "url": "https://codember.dev"
-    },
-    {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
-      "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
-      ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": [
-        "100% gratuito",
-        "+500 soluciones de la comunidad"
-      ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
-      ],
-      "url": "https://miduconf.com"
+      "url": "https://portafolio-juan-palma.netlify.app/"
     }
   ]
 }
